@@ -12,6 +12,6 @@ variabileQuoziente = variabileQuoziente.toFixed(1)
 
 let passwordSicurissima = variabileNome + variabileCognome + variabileColore +variabileQuoziente;
 
-console.log ("La tua password è: " + passwordSicurissima)
+console.log ("La tua password è: " + passwordSicurissima);
 
 document.getElementById("passwordSicura").innerHTML="La tua Password Sicurissima è <br> <b>" + passwordSicurissima +"</b>";
