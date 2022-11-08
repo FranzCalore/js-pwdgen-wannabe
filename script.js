@@ -1,4 +1,4 @@
-/* let variabileNome = prompt("inserisci il tuo nome");
+let variabileNome = prompt("inserisci il tuo nome");
 let variabileCognome = prompt ("inserisci il tuo cognome");
 let variabileColore = prompt ("inserisci il tuo colore preferito");
 let variabileNumero1 = prompt ("inserisci un numero");
@@ -12,4 +12,6 @@ variabileQuoziente = variabileQuoziente.toFixed(1)
 
 let passwordSicurissima = variabileNome + variabileCognome + variabileColore +variabileQuoziente;
 
-console.info (passwordSicurissima) */
+console.info (passwordSicurissima)
+
+document.getElementById("passwordSicura").innerHTML="La tua Password Sicurissima è <br> <b>" + passwordSicurissima +"</b>";
